@@ -29,9 +29,16 @@
 | &nbsp;&nbsp;**Market Penetration** | | | | | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Tesla Miles Travelled (Normal) | 2.0B | 25B | 250B | 750B | 1.10T | 1.25T |
 | &nbsp;&nbsp;&nbsp;&nbsp;Tesla Miles Travelled (Bull) | 4.1B | 227B | 1.15T | 2.23T | 2.48T | 2.38T |
-| &nbsp;&nbsp;&nbsp;&nbsp;**% of Private Trans. Miles (Normal)** | **0.04%** | **0.5%** | **4.8%** | **14.7%** | **12.1%** | **11.3%** |
-| &nbsp;&nbsp;&nbsp;&nbsp;**% of Private Trans. Miles (Bull)** | **0.1%** | **4.3%** | **25.1%** | **63.0%** | **68.0%** | **70.0%** |
-| &nbsp;&nbsp;&nbsp;&nbsp;Total Western VMT (Baseline) | 5.2T | 5.2T | 5.2T | 5.1T | 9.1T | 11.1T |
+| &nbsp;&nbsp;&nbsp;&nbsp;Total Robotaxi Miles (Normal) | 2.2B | 35B | 424B | 1.67T | 3.79T | 5.0T |
+| &nbsp;&nbsp;&nbsp;&nbsp;Total Robotaxi Miles (Bull) | 4.5B | 242B | 1.40T | 3.54T | 6.36T | 7.93T |
+| &nbsp;&nbsp;&nbsp;&nbsp;**% of Existing Car VMT (Normal)** | **0.04%** | **0.5%** | **6%** | **25%** | **30%** | **32%** |
+| &nbsp;&nbsp;&nbsp;&nbsp;**% of Existing Car VMT (Bull)** | **0.1%** | **3.5%** | **20%** | **50%** | **50%** | **50%** |
+| &nbsp;&nbsp;&nbsp;&nbsp;**New TAM: Non-Car-Owners (Normal)** | **0%** | **0.2%** | **2%** | **8%** | **12%** | **13%** |
+| &nbsp;&nbsp;&nbsp;&nbsp;**New TAM: Non-Car-Owners (Bull)** | **0%** | **1.2%** | **7%** | **19%** | **20%** | **21%** |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Total % of VMT (Normal)** | **0.04%** | **0.7%** | **8%** | **33%** | **42%** | **45%** |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Total % of VMT (Bull)** | **0.1%** | **4.7%** | **27%** | **69%** | **70%** | **71%** |
+| &nbsp;&nbsp;&nbsp;&nbsp;Existing Car VMT (Baseline) | 5.2T | 5.2T | 5.2T | 5.1T | 5.1T | 5.1T |
+| &nbsp;&nbsp;&nbsp;&nbsp;Total VMT (incl. New TAM) | 5.2T | 5.2T | 5.3T | 5.5T | 9.1T | 11.1T |
 | &nbsp;&nbsp;**Financial Performance (Normal)** | | | | | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;Revenue | $4.0B | $30B | $213B | $488B | $572B | $563B |
 | &nbsp;&nbsp;&nbsp;&nbsp;Earnings | -$0.2B | $16.5B | $85B | $137B | $103B | $84B |
@@ -600,77 +607,114 @@ This model focuses exclusively on the Western robotaxi business. The following s
 
 ---
 
-### A.14 Model Critique: Bull Case, Not Base Case
+### A.14 Model Critique: Scenario Analysis
 
-This section provides a critical assessment of the model's assumptions, identifying where they may be aggressive vs. conservative.
+This section provides a critical assessment of both the Normal and Bull case assumptions, identifying where they may be aggressive vs. conservative.
+
+#### Scenario Summary
+
+| Metric | Normal Case | Bull Case | Key Differentiator |
+|--------|-------------|-----------|-------------------|
+| Fleet (2029) | 0.5M | 3.15M | Regulatory approval pace |
+| Fleet (2040) | 25M | 33M | Market saturation timing |
+| Utilization | 50k mi/yr | 72k mi/yr | Geographic mix (suburban vs urban) |
+| Peak Earnings | $137B (2035) | $406B (2035) | Fleet size × utilization |
+| Market Penetration (2040) | 45% | 71% | TAM expansion adoption |
+| Peak Market Cap | $3.56T (2035) | $9.41T (2035) | Earnings × multiple |
+| Terminal Market Cap | $3.37T | $7.06T | Retained earnings accumulation |
 
 #### Internal Consistency
 
-The model's math is internally consistent. For example:
-- 2029: 3.15M vehicles × 72k miles × $1.20/mi = $272B revenue ✓
-- 2029: $272B × 55% margin = $150B earnings ✓
+Both scenarios are mathematically consistent. For example:
 
-The model is logically coherent. The question is whether the *inputs* are realistic.
+**Normal Case (2029):** 0.5M vehicles × 50k miles × $1.20/mi = $30B revenue ✓  
+**Bull Case (2029):** 3.15M vehicles × 72k miles × $1.20/mi = $272B revenue ✓
 
-#### Most Aggressive Assumptions
+The models are logically coherent. The question is whether the *inputs* are realistic.
 
-| Assumption | Model Value | Reality Check | Concern Level | Model Counterargument |
-|------------|-------------|---------------|---------------|----------------------|
-| 55% net margin (2029) | $150B on $272B | Apple peaks at ~25% net margin. Saudi Aramco at ~30%. This would be the highest margin at scale in history | 🔴 Very High | Tesla is competing with existing transport pricing. Price is determined by supply / demand, and if undercutting existing transport (1/3 of the price) price will be FORCED to a level that creates the highest profitability ever. But this will drag in competitors, forcing Tesla to grow the service as fast as possible. NVidia margins are very high now, but are expected to fall |
-| 70% market penetration | By 2040 | Assumes near-complete replacement of car ownership. Uber/Lyft are at ~1% of miles after 15 years | 🔴 Very High | True, but it would make sense if 40% is replacement, and 30% is from unlocking massive additional due to new availablility of cheap PERSONAL transport to very young/old/disabled/drunk/tourists/public transport users/etc). The model assumes Robotaxi will dominate transport by expanding the TAM. |
-| Fleet ramp (57k→3.15M) | 3 years | 55x growth requires mass regulatory approval + HW3/HW4 working perfectly | 🟠 High | Let's cut these figures to 0.5M after three years. |
-| Constant 72k mi/yr | All years, all markets | NYC taxi benchmark applied to suburban/rural. Early years likely much lower | 🟠 High | Let's cut these figures by adding a "normal" case with 50k miles. Let's retain this as a bull case.|
+#### Normal Case: Conservative or Realistic?
+
+| Assumption | Normal Value | Assessment | Rationale |
+|------------|--------------|------------|-----------|
+| 0.5M fleet by 2029 | 12.5x from 40k | 🟢 Conservative | Allows for regulatory delays, HW3 exclusion |
+| 50k mi/yr utilization | 137 mi/day | 🟢 Conservative | Accounts for suburban/rural mix, charging |
+| 45% market penetration | By 2040 | 🟡 Moderate | Could be conservative given TAM expansion |
+| 32% existing VMT + 13% new TAM | By 2040 | 🟡 Moderate | New TAM thesis is speculative but reasonable |
+| $84B terminal earnings | 15% margin | 🟢 Conservative | Mature utility-like margins |
+
+**Normal Case Verdict:** Represents a "things go reasonably well" scenario with buffer for delays and competition.
+
+#### Bull Case: Aggressive Assumptions
+
+| Assumption | Bull Value | Reality Check | Concern Level | Model Counterargument |
+|------------|------------|---------------|---------------|----------------------|
+| 55% net margin (2029) | $150B on $272B | Apple peaks at ~25% net margin. Saudi Aramco at ~30%. Would be highest margin at scale in history | 🔴 Very High | Tesla undercuts existing transport by 2/3. Price is set by supply/demand, not cost-plus. Early monopoly pricing forces extreme margins until competition arrives |
+| 71% market penetration | By 2040 | Assumes near-complete replacement of car ownership + massive new TAM | 🔴 Very High | 50% replacement + 21% new TAM from non-car-owners (young/old/disabled/drunk/tourists/public transit users). Robotaxis expand the market, not just replace it |
+| Fleet ramp (57k→3.15M) | 3 years (55x) | Requires mass regulatory approval + HW3/HW4 working perfectly | 🟠 High | Normal case (12.5x) provides downside; Bull assumes Tesla's stated timeline |
+| Constant 72k mi/yr | All years, all markets | NYC taxi benchmark applied everywhere | 🟠 High | Normal case (50k) accounts for geographic variation |
 
 #### Earnings Reality Check
 
-| Year | Model Earnings | Context | Model Counterargument |
-|------|----------------|---------|----------------------|
-| 2029 | $150B | Would be most profitable company ever | Transport is the second-most expensive line-item in any household budget, except for housing. Solve a big problem = high revenue. |
-| 2032 | $392B | 4x the most profitable company ever (Aramco ~$160B peak) | Same reasoning |
-| 2035 | $406B | More than Apple + Microsoft + Google combined | Same reasoning |
+| Year | Normal Earnings | Bull Earnings | Context |
+|------|-----------------|---------------|---------|
+| 2029 | $16.5B | $150B | Normal = large tech company; Bull = most profitable ever |
+| 2032 | $85B | $392B | Normal = Aramco-tier; Bull = 4x Aramco peak |
+| 2035 | $137B | $406B | Normal = exceptional; Bull = unprecedented |
 
-This isn't impossible, but it requires *everything* to go right: regulatory, technology, competition, adoption, pricing.
+**Bull Case** requires *everything* to go right: regulatory, technology, competition, adoption, pricing.
+**Normal Case** allows for some things to go wrong while still achieving extraordinary outcomes.
 
-#### Potentially Conservative Assumptions
+#### Potentially Conservative Assumptions (Both Cases)
 
-| Assumption | Model Value | Bull Case Alternative | Model Counterargument |
-|------------|-------------|----------------------|----------------------|
-| Western-only scope | 0% China | Tesla could crack China = 2x TAM | Model assumes symmetry in protectionism or lack-of. Thus China is excluded for simplicity. |
-| Excludes Optimus | $0 | Could be larger than robotaxi | Too little is known |
-| 15x terminal multiple | $6.1T cap | If Tesla stays innovative, 20-25x possible | The model looks at each TAM separately. Each TAM should have its own PE. In fact, please move the PE into each TAM section (e.g. Robotaxi). |
-| $0.45 price floor | Fixed | Battery improvements could push to $0.35 | OK, model this out another 10 years |
+| Assumption | Model Value | Upside Alternative | Rationale |
+|------------|-------------|-------------------|-----------|
+| Western-only scope | 0% China | Tesla cracks China = 2x TAM | Model assumes protectionist symmetry |
+| Excludes Optimus | $0 | Could exceed robotaxi value | Too speculative to model |
+| 15x terminal multiple | Both cases | 20-25x if innovation continues | Conservative utility-like valuation |
+| $0.45 price floor | Fixed | Battery improvements → $0.35 | Model ends at 2040; further price decline possible |
+| New TAM (13-21%) | Moderate | Could be 30%+ of VMT | Mobility for elderly/disabled/young may be underestimated |
 
 #### Key Uncertainties by Impact
 
 **High Impact, High Uncertainty:**
-1. **Regulatory timeline** — One fatal accident = multi-year setback
-2. **HW3/HW4 capability** — Can existing hardware actually achieve L4?
-3. **Consumer trust** — Will people actually get in a driverless car at scale?
+1. **Regulatory timeline** — One fatal accident = multi-year setback (affects Bull more than Normal)
+2. **HW3/HW4 capability** — Can existing hardware achieve L4? (Normal assumes some exclusion)
+3. **Consumer trust** — Will people get in a driverless car at scale?
 
 **High Impact, Medium Uncertainty:**
-4. **Nvidia Bloc timing** — When do Mercedes/Hyundai actually ship at scale?
+4. **Nvidia Bloc timing** — When do Mercedes/Hyundai ship at scale?
 5. **Price competition** — How fast does the race to $0.50/mi happen?
 
 **Medium Impact, High Uncertainty:**
-6. **Owner opt-in rates** — Will consumers really put their cars on the network?
+6. **Owner opt-in rates** — Will consumers put their cars on the network?
 7. **Insurance/liability** — Who pays when there's an accident?
+8. **New TAM realization** — Will non-car-owners actually adopt robotaxis at scale?
 
 #### Assessment Summary
 
-The model represents the "everything goes right" scenario:
-- Regulatory approval happens on Tesla's timeline ✓
+**Bull Case** represents "everything goes right":
+- Regulatory approval on Tesla's timeline ✓
 - HW3/HW4 works for unsupervised driving ✓
 - Competition is 3-5 years behind ✓
 - Consumers adopt rapidly ✓
 - Pricing power persists through 2032 ✓
+- New TAM fully materializes ✓
 
-A more realistic base case might assume:
-- 2-3 year delay on all milestones
-- Peak margins of 35-40% instead of 55%
-- 40-50% market penetration ceiling instead of 70%
-- 20-25% mature market share instead of 30%
+**Normal Case** represents "things go reasonably well":
+- Some regulatory delays tolerated
+- Some HW3 vehicles excluded
+- Competition arrives on schedule
+- Consumer adoption is gradual
+- Price compression happens earlier
+- Partial new TAM realization
 
-**Rough impact:** This would roughly halve the peak valuation from ~$8.5T to ~$4T, which would *still* be extraordinary (5x current value).
+| Scenario | 2035 Peak | 2040 Terminal | Probability Assessment |
+|----------|-----------|---------------|----------------------|
+| **Bull** | $9.4T | $7.1T | ~20% (everything works) |
+| **Normal** | $3.6T | $3.4T | ~50% (reasonable execution) |
+| **Bear** (not modeled) | ~$1.5T | ~$1.2T | ~30% (significant setbacks) |
+
+**Key Insight:** Even the Normal case produces a **$3.4T market cap** by 2040—roughly **4x current valuation**. The question isn't whether robotaxis create value, but *how much*.
 
 ---
 
@@ -695,17 +739,44 @@ Trade tensions, data security laws, or protectionist policies could reshape mark
 
 ## 6. Conclusion
 
-This model represents the **ideal physical limit** of Tesla's robotaxi opportunity in Western markets. Key takeaways:
+This model presents two scenarios for Tesla's robotaxi opportunity in Western markets:
 
-1. **Peak Market Cap of $8.5T** occurs around 2035, when maximum earnings intersect with still-elevated P/E multiples.
+### Normal Case Summary
+| Milestone | Value | Timing |
+|-----------|-------|--------|
+| Peak Market Cap | **$3.56T** | 2035 |
+| Peak Earnings | $137B/yr | 2035 |
+| Terminal Market Cap | **$3.37T** | 2040 |
+| Terminal Earnings | $84B/yr | 2040 |
+| Retained Earnings | $1.1T | 2040 |
 
-2. **The "Harvest Window" (2029–2035)** is the critical value-creation period, generating over $2 trillion in cumulative earnings.
+### Bull Case Summary
+| Milestone | Value | Timing |
+|-----------|-------|--------|
+| Peak Market Cap | **$9.41T** | 2035 |
+| Peak Earnings | $406B/yr | 2035 |
+| Terminal Market Cap | **$7.06T** | 2040 |
+| Terminal Earnings | $161B/yr | 2040 |
+| Retained Earnings | $3.6T | 2040 |
 
-3. **Maturity ($6.1T Market Cap)** reflects a utility-like business with stable 15% margins and $3.7T in retained cash.
+### Key Takeaways
 
-4. **The Core Thesis:** Tesla's structural cost advantage ($0.20/mile vs. competitors' $0.35–$0.45/mile) enables it to thrive at price points where competitors merely survive.
+1. **The "Harvest Window" (2029–2035)** is critical in both scenarios—this is when Tesla's first-mover advantage generates maximum value before competition matures.
 
-5. **Key Uncertainties:** Regulatory timeline, HW3 fleet activation, and Nvidia Bloc scaling speed.
+2. **Market Penetration Drivers:**
+   - **Existing VMT replacement:** 32% (Normal) to 50% (Bull) of current car miles
+   - **New TAM (non-car-owners):** 13% (Normal) to 21% (Bull) additional miles from young/old/disabled/drunk/tourists/public transit users
+
+3. **The Core Thesis:** Tesla's structural cost advantage ($0.20/mile vs. competitors' $0.35–$0.45/mile) enables it to thrive at price points where competitors merely survive.
+
+4. **Even the Normal Case is Extraordinary:** $3.4T by 2040 represents ~4x current valuation, with $1.1T in accumulated cash.
+
+5. **Key Differentiators Between Scenarios:**
+   - Fleet ramp speed (regulatory approval pace)
+   - Utilization rates (geographic mix)
+   - New TAM realization (non-car-owner adoption)
+
+6. **Key Uncertainties:** Regulatory timeline, HW3 fleet activation capability, Nvidia Bloc scaling speed, and consumer trust in autonomous vehicles.
 
 ---
 
