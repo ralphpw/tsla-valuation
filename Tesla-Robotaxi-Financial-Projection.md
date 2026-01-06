@@ -10,34 +10,39 @@
 
 | Row Item | 2026 | 2029 | 2032 | 2035 | 2038 | 2040 (Maturity) |
 |----------|------|------|------|------|------|-----------------|
-| **FLEET & OPERATIONAL METRICS** | | | | | | |
-| Tesla Fleet Size: US | 50k | 2.5M | 12.0M | 22.0M | 24.0M | 23.0M |
-| Tesla Fleet Size: EU | 5k | 500k | 3.0M | 6.5M | 7.5M | 7.0M |
-| Tesla Fleet Size: Other West | 2k | 150k | 1.0M | 2.5M | 3.0M | 3.0M |
-| **Tesla Fleet Size (Total West)** | **57k** | **3.15M** | **16.0M** | **31.0M** | **34.5M** | **33.0M** |
-| Other Vendor Fleet (West) | 5k | 200k | 3.5M | 18.0M | 55.0M | 76.5M |
-| **Total Global Fleet (West)** | **62k** | **3.35M** | **19.5M** | **49.0M** | **89.5M** | **109.5M** |
-| Tesla Market Share (West) | 92% | 94% | 82% | 63% | 39% | 30% |
-| **PRICING & MARGIN DYNAMICS** | | | | | | |
-| **Price per Mile (PPM)** | **$2.00** | **$1.20** | **$0.85** | **$0.65** | **$0.52** | **$0.45** |
-| Tesla Cost per Mile | $0.25 | $0.22 | $0.20 | $0.20 | $0.20 | $0.20 |
-| **Tesla Profit Margin (%)** | **-5%** | **55%** | **40%** | **28%** | **18%** | **15%** |
-| Competitor Cost per Mile | $0.50 | $0.45 | $0.40 | $0.38 | $0.36 | $0.35 |
-| Competitor Margin (%) | N/A | 20% | 15% | 10% | 8% | 5% |
-| **MARKET PENETRATION** | | | | | | |
-| Miles Travelled (West) | 0.5B | 225B | 1.3T | 3.2T | 6.2T | 7.8T |
-| Tesla Miles Travelled | 4.1B | 227B | 1.15T | 2.23T | 2.48T | 2.38T |
-| **% of Private Trans. Miles** | **0.1%** | **4.3%** | **25.1%** | **63.0%** | **68.0%** | **70.0%** |
-| Total Western VMT (Baseline) | 5.2T | 5.2T | 5.2T | 5.1T | 9.1T | 11.1T |
-| **FINANCIAL PERFORMANCE** | | | | | | |
-| **Tesla Revenue ($B)** | **$8.2B** | **$272.2B** | **$979.2B** | **$1,450B** | **$1,291B** | **$1,073B** |
-| **Tesla Earnings ($B)** | **-$0.4B** | **$149.7B** | **$391.7B** | **$406.1B** | **$232.3B** | **$161B** |
-| Earnings per Vehicle | -$7k | $47.5k | $24.5k | $13.1k | $6.7k | $4.9k |
-| **VALUATION** | | | | | | |
-| Conservative P/E Multiple | 60x | 25x | 18x | 15x | 15x | 15x |
-| Enterprise Value (EV) ($T) | $0.76T | $3.74T | $7.05T | $6.09T | $3.48T | $2.42T |
-| Retained Earnings ($B) | $39.6B | $295B | $1,215B | $2,430B | $3,290B | $3,680B |
-| **Total Market Cap ($T)** | **$0.80T** | **$4.04T** | **$8.27T** | **$8.52T** | **$6.77T** | **$6.10T** |
+| **ROBOTAXI** | | | | | | |
+|   **Fleet & Operational Metrics** | | | | | | |
+|     Tesla Fleet Size: US | 50k | 2.5M | 12.0M | 22.0M | 24.0M | 23.0M |
+|     Tesla Fleet Size: EU | 5k | 500k | 3.0M | 6.5M | 7.5M | 7.0M |
+|     Tesla Fleet Size: Other West | 2k | 150k | 1.0M | 2.5M | 3.0M | 3.0M |
+|     **Tesla Fleet Size (Total West)** | **57k** | **3.15M** | **16.0M** | **31.0M** | **34.5M** | **33.0M** |
+|     Other Vendor Fleet (West) | 5k | 200k | 3.5M | 18.0M | 55.0M | 76.5M |
+|     **Total Global Fleet (West)** | **62k** | **3.35M** | **19.5M** | **49.0M** | **89.5M** | **109.5M** |
+|     Tesla Market Share (West) | 92% | 94% | 82% | 63% | 39% | 30% |
+|   **Pricing & Margin Dynamics** | | | | | | |
+|     **Price per Mile (PPM)** | **$2.00** | **$1.20** | **$0.85** | **$0.65** | **$0.52** | **$0.45** |
+|     Tesla Cost per Mile | $0.25 | $0.22 | $0.20 | $0.20 | $0.20 | $0.20 |
+|     **Tesla Profit Margin (%)** | **-5%** | **55%** | **40%** | **28%** | **18%** | **15%** |
+|     Competitor Cost per Mile | $0.50 | $0.45 | $0.40 | $0.38 | $0.36 | $0.35 |
+|     Competitor Margin (%) | N/A | 20% | 15% | 10% | 8% | 5% |
+|   **Market Penetration** | | | | | | |
+|     Miles Travelled (West) | 0.5B | 225B | 1.3T | 3.2T | 6.2T | 7.8T |
+|     Tesla Miles Travelled | 4.1B | 227B | 1.15T | 2.23T | 2.48T | 2.38T |
+|     **% of Private Trans. Miles** | **0.1%** | **4.3%** | **25.1%** | **63.0%** | **68.0%** | **70.0%** |
+|     Total Western VMT (Baseline) | 5.2T | 5.2T | 5.2T | 5.1T | 9.1T | 11.1T |
+|   **Financial Performance** | | | | | | |
+|     **Tesla Revenue ($B)** | **$8.2B** | **$272.2B** | **$979.2B** | **$1,450B** | **$1,291B** | **$1,073B** |
+|     **Tesla Earnings ($B)** | **-$0.4B** | **$149.7B** | **$391.7B** | **$406.1B** | **$232.3B** | **$161B** |
+|     Earnings per Vehicle | -$7k | $47.5k | $24.5k | $13.1k | $6.7k | $4.9k |
+|     Robotaxi Retained Earnings ($B) | $0B | $255.4B | $1,175.4B | $2,390.4B | $3,250.4B | $3,640.4B |
+| **BATTERIES** | | | | | | |
+|   *(section placeholder)* | | | | | | |
+| **TOTAL COMPANY** | | | | | | |
+|   **Valuation** | | | | | | |
+|     Conservative P/E Multiple | 60x | 25x | 18x | 15x | 15x | 15x |
+|     Enterprise Value (EV) ($T) | $0.76T | $3.74T | $7.05T | $6.09T | $3.48T | $2.42T |
+|     Retained Earnings ($B) | $39.6B | $295B | $1,215B | $2,430B | $3,290B | $3,680B |
+|     **Total Market Cap ($T)** | **$0.80T** | **$4.04T** | **$8.27T** | **$8.52T** | **$6.77T** | **$6.10T** |
 
 *Note: 2026 Market Cap includes legacy EV and Energy business value floors (~$760B).*
 
