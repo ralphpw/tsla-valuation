@@ -35,7 +35,11 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;**Tesla Earnings ($B)** | **-$0.4B** | **$149.7B** | **$391.7B** | **$406.1B** | **$232.3B** | **$161B** |
 | &nbsp;&nbsp;&nbsp;&nbsp;Earnings per Vehicle | -$7k | $47.5k | $24.5k | $13.1k | $6.7k | $4.9k |
 | &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Retained Earnings ($B) | $0B | $255.4B | $1,175.4B | $2,390.4B | $3,250.4B | $3,640.4B |
+| **FSD** | | | | | | |
+| &nbsp;&nbsp;*(section placeholder)* | | | | | | |
 | **BATTERIES** | | | | | | |
+| &nbsp;&nbsp;*(section placeholder)* | | | | | | |
+| **OPTIMUS** | | | | | | |
 | &nbsp;&nbsp;*(section placeholder)* | | | | | | |
 | **TOTAL COMPANY** | | | | | | |
 | &nbsp;&nbsp;**Valuation** | | | | | | |
@@ -540,6 +544,40 @@ By 2036–2040, the Nvidia Bloc may match Tesla's volume collectively, even if n
 | OEM Integration Failures | Bull: 1–3 year Nvidia delay | Legacy automakers struggle with software integration |
 | Nvidia License Burden | Bull: OEMs at 5–8% margin | License fees limit OEM ability to compete on price |
 | Waymo Premium Niche | Neutral: 10–15% share | Safety record and brand trust sustain premium pricing |
+
+---
+
+### A.13 Alternative Factors: What This Model Excludes
+
+This model focuses exclusively on the Western robotaxi business. The following significant factors are deliberately excluded but could materially impact Tesla's total valuation:
+
+| Factor | Potential Impact | Rationale for Exclusion |
+|--------|------------------|-------------------------|
+| **Optimus Humanoid Robot** | Bull: $5T+ market by 2040 | Separate business line; timeline highly uncertain |
+| **Energy/Supercharger Business** | Bull: $200B–$500B value | Already embedded in 2026 baseline; excludes growth |
+| **Eastern Markets (China/APAC)** | Bull: 2x global TAM | Protectionist barriers; separate competitive dynamics |
+| **FSD Licensing Revenue** | Bull: $50B–$200B/yr | Low probability; Tesla unlikely to license core advantage |
+| **Tesla Insurance** | Bull: $100B–$300B value | Ancillary business; margin compressed by competition |
+| **Data Monetization** | Bull: $20B–$100B/yr | Regulatory constraints; unclear business model |
+| **Vehicle-to-Grid (V2G)** | Bull: $10B–$50B/yr | Technology immature; regulatory/utility integration needed |
+| **Used Robotaxi Secondary Market** | Bear: Depresses fleet value | 1M-mile lifespan limits resale; mostly scrap value |
+| **Infrastructure Capex** | Bear: -$50B–$200B | Charging stations, service centers, remote ops centers |
+| **Platform/App Ecosystem** | Bull: $5B–$20B/yr | In-car purchases, entertainment, productivity apps |
+| **Delivery/Logistics Services** | Bull: $100B–$500B | Competes with Amazon/Zoox; requires different vehicle design |
+| **Climate Change Impacts** | Mixed | Extreme weather affects utilization; policy incentives help adoption |
+| **Demographic Shifts** | Bull: Aging population | Elderly mobility increases TAM; modeled as "induced demand" |
+| **Real Estate Holdings** | Bull: $50B–$150B | Charging/service locations; long-term appreciation |
+| **Regulatory Credits** | Bear: -$2B–$5B/yr decline | Phasing out as EVs become mainstream |
+
+**Why These Exclusions Matter:**
+
+1. **Optimus Alone Could Exceed Robotaxi Value:** If Tesla solves humanoid robotics at scale, the $6T 2040 Market Cap could be conservative by an order of magnitude.
+
+2. **Energy Business is Real:** The 2026 baseline (~$760B) includes some energy value, but excludes the potential for Tesla to become the dominant grid-scale storage provider.
+
+3. **China is 50% of Global Market:** By excluding Eastern markets, this model covers only half the global robotaxi opportunity.
+
+4. **Cumulative Impact:** These factors could add (or subtract) trillions in value. The model is intentionally conservative by focusing only on the core Western robotaxi thesis.
 
 ---
 
