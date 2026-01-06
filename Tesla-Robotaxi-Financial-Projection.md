@@ -33,8 +33,9 @@
 | &nbsp;&nbsp;**Financial Performance** | | | | | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;**Tesla Revenue ($B)** | **$8.2B** | **$272.2B** | **$979.2B** | **$1,450B** | **$1,291B** | **$1,073B** |
 | &nbsp;&nbsp;&nbsp;&nbsp;**Tesla Earnings ($B)** | **-$0.4B** | **$149.7B** | **$391.7B** | **$406.1B** | **$232.3B** | **$161B** |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Earnings (Intermediate years est.) | 30B, 75B | 250B, 320B | 400B, 405B | 350B, 280B | 195B | — |
 | &nbsp;&nbsp;&nbsp;&nbsp;Earnings per Vehicle | -$7k | $47.5k | $24.5k | $13.1k | $6.7k | $4.9k |
-| &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Retained Earnings ($B) | $0B | $255.4B | $1,175.4B | $2,390.4B | $3,250.4B | $3,640.4B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Retained Earnings ($B) | $0B | $255B | $1,217B | $2,423B | $3,286B | $3,642B |
 | **FSD** | | | | | | |
 | &nbsp;&nbsp;*(section placeholder)* | | | | | | |
 | **BATTERIES** | | | | | | |
