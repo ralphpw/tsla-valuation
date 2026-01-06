@@ -65,16 +65,23 @@
 | &nbsp;&nbsp;*(section placeholder)* | | | | | | |
 | **TOTAL COMPANY** | | | | | | |
 | &nbsp;&nbsp;**Aggregate Valuation** | | | | | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Legacy Business (EV/Energy) | $760B | $800B | $850B | $900B | $950B | $1,000B |
 | &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Value (Normal) | -$12B | $526B | $1,947B | $2,659B | $2,474B | $2,365B |
 | &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Value (Bull) | -$24B | $4,005B | $8,273B | $8,513B | $6,766B | $6,057B |
 | &nbsp;&nbsp;&nbsp;&nbsp;FSD Value | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* |
 | &nbsp;&nbsp;&nbsp;&nbsp;Batteries Value | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* |
 | &nbsp;&nbsp;&nbsp;&nbsp;Optimus Value | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Normal)** | **$0.75T** | **$1.33T** | **$2.80T** | **$3.56T** | **$3.42T** | **$3.37T** |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Bull)** | **$0.74T** | **$4.81T** | **$9.12T** | **$9.41T** | **$7.72T** | **$7.06T** |
+| &nbsp;&nbsp;&nbsp;&nbsp;Legacy Business (EV/Energy) | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Normal)** | **-$0.01T** | **$0.53T** | **$1.95T** | **$2.66T** | **$2.47T** | **$2.37T** |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Bull)** | **-$0.02T** | **$4.01T** | **$8.27T** | **$8.51T** | **$6.77T** | **$6.06T** |
+| &nbsp;&nbsp;**Discounted Valuation (DCF)** | | | | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Discount Rate (Back-tested) | 7% | 7% | 7% | 7% | 7% | 7% |
+| &nbsp;&nbsp;&nbsp;&nbsp;Years from 2026 | 0 | 3 | 6 | 9 | 12 | 14 |
+| &nbsp;&nbsp;&nbsp;&nbsp;Discount Factor | 1.000 | 0.816 | 0.666 | 0.544 | 0.444 | 0.388 |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Present Value (Normal)** | **-$0.01T** | **$0.43T** | **$1.30T** | **$1.45T** | **$1.10T** | **$0.92T** |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Present Value (Bull)** | **-$0.02T** | **$3.27T** | **$5.51T** | **$4.63T** | **$3.01T** | **$2.35T** |
 
-*Note: 2026 Market Cap includes legacy EV and Energy business value floors (~$760B).*
+*Note: TOTAL COMPANY currently reflects Robotaxi only. Legacy Business, FSD, Batteries, Optimus not yet modeled.*
+*DCF uses 7% discount rate based on back-tested S&P 500 long-term implied returns (Shiller CAPE methodology).*
 
 ---
 
