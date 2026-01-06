@@ -742,6 +742,9 @@ Recessions could slow fleet expansion and consumer adoption.
 ### 5.5 Geopolitical Risk
 Trade tensions, data security laws, or protectionist policies could reshape market access.
 
+### 5.6 Traffic Capacity Risk
+European cities have limited capacity for additional traffic, which may keep existing commuters reliant on public transport. However, this does not preclude the replacement of current car journeys with robotaxis.
+
 ---
 
 ## 6. Conclusion
