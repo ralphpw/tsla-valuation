@@ -177,9 +177,12 @@ The model exclusively covers the Western Hemisphere (US, EU, and Other non-Asian
 The Asian market is assumed to develop its own ecosystem with domestic players (Baidu Apollo Go, Pony.ai, WeRide) dominating.
 
 #### Alternative Views
-- **Potential EU Delays:** Full "unsupervised" robotaxi approval in Europe is likely years away due to strict UN-R-171 and EU Article 39 regulations. The EU market ramp may be significantly slower than modeled.
-- **Chinese "Trojan Horse" Strategy:** Some Chinese firms like Pony.ai or WeRide have attempted to enter Western markets through partnerships (e.g., integrating into Uber's platform in the Middle East). If successful, this could add competitive pressure.
-- **Tesla in China Risk:** Tesla's existing China operations could face additional restrictions, affecting their manufacturing base even for Western-bound vehicles.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Tesla in China Risk | Bear: High | China operations could face restrictions, affecting manufacturing for Western-bound vehicles |
+| EU Regulatory Delays | Bear: Medium | UN-R-171 and EU Article 39 regulations may delay unsupervised approval by years |
+| Chinese Market Entry | Bear: Low | Pony.ai/WeRide could enter Western markets via partnerships (e.g., Uber in Middle East) |
 
 ---
 
@@ -204,10 +207,13 @@ A constant high-utilization rate of 72,000 miles per year per vehicle is used th
 **Vehicle Lifespan:** While consumer Teslas are built for 300,000 miles, robotaxis are being projected for a 1 million mile operational life to handle these extreme cycles.
 
 #### Alternative Views
-- **Urban Speed Limits:** The primary cap on mileage is not the battery or AI, but traffic. With an average speed of 16 mph, even a vehicle active for 20 hours/day is limited to ~320 miles daily maximum.
-- **Charging Downtime:** Even with optimized charging during deadhead periods, charging time reduces active hours.
-- **Early Testing Data:** Some 2026 pilot programs report utilization as low as 20 miles/day during early testing phases.
-- **Geographic Variation:** The 72,000 mile assumption is based on NYC—suburban or lower-density markets may have significantly lower utilization.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Early Testing Data | Bear: ~20 mi/day | 2026 pilot programs report utilization far below model assumptions |
+| Geographic Variation | Bear: 40–60k mi/yr | Suburban/low-density markets may have significantly lower utilization than NYC |
+| Charging Downtime | Bear: 65–70k mi/yr | Charging reduces active hours even with optimized deadhead scheduling |
+| Urban Speed Limits | Bear: ~320 mi/day max | Traffic caps mileage at ~117k mi/yr theoretical maximum (20 hrs × 16 mph) |
 
 ---
 
@@ -232,10 +238,13 @@ At $0.50/mile, robotaxis move from "taxi replacement" to "car ownership replacem
 - This triggers "induced demand"—people travel more frequently for trips they might have previously walked or skipped
 
 #### Alternative Views
-- **Price Floor May Be Higher:** If regulatory costs (insurance, remote operators, safety validation) are higher than modeled, the floor may be $0.60–$0.70/mile.
-- **Slower Price Decay:** Competition may take longer to materialize, allowing Tesla to maintain $1.00+ pricing into the 2030s.
-- **Regional Pricing Variation:** Dense urban markets may command premium pricing indefinitely; the "floor" may only apply to suburban routes.
-- **Surge Pricing:** Dynamic pricing during peak demand could maintain higher effective PPM than the table suggests.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Slower Price Decay | Bull: $1.00+/mi into 2030s | Competition may lag, extending high-margin pricing window |
+| Surge Pricing | Bull: +15–30% effective PPM | Dynamic pricing during peak demand raises blended revenue |
+| Regional Premium Pricing | Bull: $0.60–$0.80/mi urban | Dense urban markets may sustain premium pricing indefinitely |
+| Higher Price Floor | Bear: $0.60–$0.70/mi floor | Regulatory costs (insurance, remote ops) may exceed model |
 
 ---
 
@@ -265,10 +274,13 @@ This spread is the engine for Tesla's long-term 15% margin. When the market pric
 This dynamic is precisely what forces competitors out of the market and consolidates the oligopoly.
 
 #### Alternative Views
-- **Nvidia Cost Reduction:** As Nvidia scales, their license fees may drop significantly, closing the cost gap.
-- **Manufacturing Parity:** Legacy automakers may achieve manufacturing efficiency parity, especially for purpose-built robotaxis.
-- **Tesla's Sensor Costs:** If Tesla is forced to add LiDAR or redundant sensors for regulatory approval, their cost advantage shrinks.
-- **Hidden Costs:** The model may underestimate "remote operator" costs (human monitors at 1 operator per 50–100 cars), which adds a labor cost floor.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Tesla LiDAR Requirement | Bear: +$0.03–$0.05/mi | Regulators may mandate redundant sensors, shrinking cost advantage |
+| Remote Operator Costs | Bear: +$0.02–$0.04/mi | Human monitors (1:50–100 ratio) add labor cost floor |
+| Nvidia Cost Reduction | Bear: Competitors to $0.30/mi | Nvidia license fees may drop at scale, closing gap |
+| Manufacturing Parity | Bear: Competitors to $0.32/mi | Legacy OEMs may achieve efficiency parity with purpose-built robotaxis |
 
 ---
 
@@ -292,10 +304,13 @@ This is based on competitive dynamics, not cost. The market price will always be
 A 15% net margin in a mature, capital-intensive industry is considered a very healthy, sustainable return. A 5% margin suggests a business vulnerable to economic downturns.
 
 #### Alternative Views
-- **Margin Compression Faster:** If the Nvidia Bloc scales faster than expected, margins could compress to 15% by 2030–2032.
-- **Margin Floor Higher:** Network effects (where the fleet with shortest wait times dominates) could limit the market to 3–4 players earlier, maintaining 20%+ margins.
-- **Margin Floor Lower:** A "race to the bottom" could drive margins below 15% if a deep-pocketed competitor (Amazon/Zoox) chooses to subsidize rides.
-- **Regulatory Costs:** Mandatory insurance, safety validation, and remote operator requirements could add fixed costs that reduce margins.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Network Effects | Bull: 20%+ terminal margin | Fleet with shortest wait times dominates; 3–4 player limit maintains pricing |
+| Faster Margin Compression | Bear: 15% by 2030–2032 | Nvidia Bloc scales faster than expected |
+| Amazon Subsidization | Bear: <15% margin | Deep-pocketed competitor (Amazon/Zoox) may subsidize rides |
+| Regulatory Cost Burden | Bear: -2–5% margin | Mandatory insurance, safety validation, remote ops add fixed costs |
 
 ---
 
@@ -321,10 +336,13 @@ Automated 1–2 meter vehicle spacing mitigates traffic density issues, allowing
 While "price per mile" drops, "miles per hour" of the fleet increases. Cars complete more trips per shift because they're not stuck in human-induced stop-and-go waves.
 
 #### Alternative Views
-- **Mixed Traffic Bottleneck:** As long as human drivers remain on the road (likely for decades), safety buffers between AVs and human vehicles limit capacity gains.
-- **100% Autonomous Requirement:** The 2.5x–10x capacity gains require 100% autonomous traffic. In a mixed environment, gains may be only 10–30%.
-- **Infrastructure Lag:** Roads, intersections, and traffic signals may need significant upgrades to enable these gains.
-- **Regulatory Limits:** Governments may mandate minimum following distances even for AVs, limiting the benefit.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Mixed Traffic Reality | Bear: 10–30% capacity gain | Human drivers on road for decades limit AV capacity benefits |
+| 100% AV Requirement | Bear: 1.1–1.3x vs 2.5–10x | Full capacity gains require 100% autonomous traffic |
+| Infrastructure Lag | Bear: Delayed gains | Roads, signals need upgrades before platooning benefits materialize |
+| Regulatory Following Distance | Bear: 5–10m mandated | Governments may mandate minimum distances even for AVs |
 
 ---
 
@@ -350,10 +368,13 @@ Tesla's early fleet size is enabled by activating existing consumer vehicles via
 The model primarily assumes a Tesla-owned fleet, but institutional models also include "third-party ownership" where Tesla takes a 40–80% "take rate" from independent owners who put their cars on the network.
 
 #### Alternative Views
-- **HW3 Limitations:** There is ongoing 2026 debate whether older HW3 vehicles will meet stringent "safety-fidelity" requirements for unsupervised operation. This could limit the usable fleet significantly.
-- **Owner Opt-In Rates:** Consumer willingness to put their personal vehicles on the robotaxi network may be lower than assumed (wear and tear, liability concerns).
-- **Manufacturing Bottleneck:** If the fleet is primarily Tesla-owned (not consumer vehicles), the Cybercab production ramp (targeted April 2026) becomes the constraint.
-- **Safety Validation:** The limit is not how many cars Tesla can build, but how quickly they can prove to regulators that "unsupervised" safety metrics are significantly better than human drivers.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| HW3 Exclusion | Bear: -3–4M vehicles | HW3 may fail "safety-fidelity" requirements for unsupervised operation |
+| Low Owner Opt-In | Bear: 20–40% participation | Wear/tear and liability concerns reduce consumer fleet availability |
+| Cybercab Production Delay | Bear: 6–12 month slip | April 2026 production ramp becomes constraint if Tesla-owned fleet |
+| Safety Validation Pace | Bear: Slower ramp | Regulatory proof of superhuman safety limits deployment speed |
 
 ---
 
@@ -383,10 +404,13 @@ By 2040, total Western VMT exceeds current baselines due to "induced demand":
 - Empty "positioning" miles (deadheading) add to total
 
 #### Alternative Views
-- **Slower Adoption:** Consumer habits and car ownership preferences may prove stickier than assumed.
-- **Public Transit Resilience:** In some cities, public transit may compete effectively at the $0.45/mile floor.
-- **Regulatory Slowdown:** Safety incidents could trigger regulatory backlash, slowing penetration.
-- **Economic Cycles:** Recessions could delay fleet expansion and consumer adoption.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Sticky Car Ownership | Bear: 40–50% ceiling | Consumer habits and preferences prove more durable than modeled |
+| Public Transit Competition | Bear: -5–10% in urban | Transit competes effectively at $0.45/mile in dense cities |
+| Safety Incident Backlash | Bear: 2–5 year delay | Major incidents trigger regulatory slowdown |
+| Recession Impact | Bear: 1–3 year delay | Economic cycles slow fleet expansion and adoption |
 
 ---
 
@@ -411,10 +435,13 @@ Institutional investors looking at total Net Present Value (NPV) of multi-decade
 Aligned with industrial/utility giants (Union Pacific, modern energy conglomerates). At maturity, Tesla behaves like a stable dividend-payer with predictable earnings.
 
 #### Alternative Views
-- **Higher Terminal Multiple:** If Tesla maintains innovation leadership (Optimus robot, energy storage), the market may assign a higher terminal multiple (20x+).
-- **Lower Peak Multiple:** Skepticism about execution could keep peak multiples lower (15–20x even during growth phase).
-- **Market Irrationality:** Retail investor enthusiasm could maintain higher multiples longer than fundamentally justified.
-- **Cash Deployment:** If Tesla deploys retained earnings into new growth areas (rather than buybacks), the market may assign higher growth multiples.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Innovation Premium | Bull: 20–25x terminal | Optimus/energy leadership maintains growth multiple |
+| Retail Enthusiasm | Bull: 25–40x sustained | Market irrationality extends high multiples beyond fundamentals |
+| Growth Reinvestment | Bull: 18–22x terminal | Cash deployed into new ventures vs buybacks sustains growth multiple |
+| Execution Skepticism | Bear: 15–20x peak | Doubts about delivery keep multiples lower during growth phase |
 
 ---
 
@@ -448,10 +475,13 @@ By 2040, Tesla holds ~$3.68 Trillion in cash—the largest cash reserve in human
 In practice, Tesla would return much of this to shareholders via buybacks or dividends. If they used that $3.6T to buy back half their shares, the stock price would continue rising even as total Market Cap stabilized.
 
 #### Alternative Views
-- **Reinvestment:** Tesla may deploy earnings into new ventures (Optimus, energy, space), reducing retained earnings but potentially increasing growth multiples.
-- **Acquisitions:** A $3T+ war chest could fund transformative acquisitions that change the company's profile entirely.
-- **Regulatory/Tax Changes:** Windfall taxes or regulatory actions could reduce earnings accumulation.
-- **Shareholder Pressure:** Investors may demand capital return well before the $3T+ level, reducing retained earnings trajectory.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Transformative M&A | Bull: Profile change | $3T+ war chest funds acquisitions that reshape company entirely |
+| Growth Reinvestment | Bull: Higher multiple | Earnings deployed into Optimus/energy/space vs cash accumulation |
+| Shareholder Pressure | Neutral: Earlier returns | Investors demand buybacks/dividends before $3T+ accumulation |
+| Windfall Taxation | Bear: -20–40% retained | Regulatory/tax actions reduce earnings accumulation |
 
 ---
 
@@ -473,10 +503,13 @@ This model aligns with "bull-case" institutional frameworks but is more aggressi
 - Accounts for "software activation" of existing fleet (a key differentiator)
 
 #### Alternative Views
-- **Consensus is Right:** Morgan Stanley's 1,000-vehicle projection for 2026 and 1M by 2035 may prove accurate if regulatory approval is slower than Tesla bulls expect.
-- **ARK is Wrong:** ARK's historical projections have often been too optimistic on timelines.
-- **Black Swan Risk:** Safety incidents, regulatory crackdowns, or competitive breakthroughs could invalidate the entire model.
-- **Execution Risk:** Tesla's ambitious targets have historically experienced delays (Cybertruck, Semi, FSD timeline).
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Black Swan Event | Bear: Model invalid | Safety incidents or competitive breakthroughs invalidate thesis |
+| Consensus Correct | Bear: 1M fleet by 2035 | Morgan Stanley's slower regulatory timeline proves accurate |
+| ARK Timeline Optimism | Bear: 2–3 year delay | ARK's historical pattern of over-optimistic timelines repeats |
+| Tesla Execution Pattern | Bear: 1–2 year delay | Cybertruck/Semi/FSD delay pattern continues |
 
 ---
 
@@ -500,10 +533,13 @@ Nvidia positions itself as the "Intel Inside" for legacy automakers:
 By 2036–2040, the Nvidia Bloc may match Tesla's volume collectively, even if no single OEM does individually.
 
 #### Alternative Views
-- **Integration Challenges:** Legacy OEMs may struggle to integrate Nvidia software effectively, leading to delays and quality issues.
-- **Margin Pressure:** Nvidia's license fees add cost, limiting OEM margins and their ability to compete on price.
-- **Data Disadvantage:** Tesla's real-world data advantage (billions of miles) may prove insurmountable.
-- **Waymo Resilience:** Waymo's safety record and brand trust may allow them to command premium pricing, avoiding the cost competition.
+
+| View | Impact | Description |
+|------|--------|-------------|
+| Tesla Data Moat | Bull: 2–4 year lead | Billions of real-world miles prove insurmountable advantage |
+| OEM Integration Failures | Bull: 1–3 year Nvidia delay | Legacy automakers struggle with software integration |
+| Nvidia License Burden | Bull: OEMs at 5–8% margin | License fees limit OEM ability to compete on price |
+| Waymo Premium Niche | Neutral: 10–15% share | Safety record and brand trust sustain premium pricing |
 
 ---
 
