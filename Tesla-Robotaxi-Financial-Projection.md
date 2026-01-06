@@ -33,15 +33,23 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;**% of Private Trans. Miles (Bull)** | **0.1%** | **4.3%** | **25.1%** | **63.0%** | **68.0%** | **70.0%** |
 | &nbsp;&nbsp;&nbsp;&nbsp;Total Western VMT (Baseline) | 5.2T | 5.2T | 5.2T | 5.1T | 9.1T | 11.1T |
 | &nbsp;&nbsp;**Financial Performance (Normal)** | | | | | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Revenue (Normal) | $4.0B | $30B | $213B | $488B | $572B | $563B |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Earnings (Normal) | -$0.2B | $16.5B | $85B | $137B | $103B | $84B |
-| &nbsp;&nbsp;&nbsp;&nbsp;Earnings (Intermediate, Normal) | 5B, 10B | 40B, 60B | 100B, 120B | 120B, 110B | 92B | — |
-| &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Retained Earnings (Normal) | $0B | $31B | $247B | $604B | $929B | $1,105B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Revenue | $4.0B | $30B | $213B | $488B | $572B | $563B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Earnings | -$0.2B | $16.5B | $85B | $137B | $103B | $84B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Earnings (Intermediate) | 5B, 10B | 40B, 60B | 100B, 120B | 120B, 110B | 92B | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;Retained Earnings | $0B | $31B | $247B | $604B | $929B | $1,105B |
 | &nbsp;&nbsp;**Financial Performance (Bull)** | | | | | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Revenue (Bull) | $8.2B | $272B | $979B | $1,450B | $1,291B | $1,073B |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Earnings (Bull) | -$0.4B | $150B | $392B | $406B | $232B | $161B |
-| &nbsp;&nbsp;&nbsp;&nbsp;Earnings (Intermediate, Bull) | 30B, 75B | 250B, 320B | 400B, 405B | 350B, 280B | 195B | — |
-| &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Retained Earnings (Bull) | $0B | $255B | $1,217B | $2,423B | $3,286B | $3,642B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Revenue | $8.2B | $272B | $979B | $1,450B | $1,291B | $1,073B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Earnings | -$0.4B | $150B | $392B | $406B | $232B | $161B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Earnings (Intermediate) | 30B, 75B | 250B, 320B | 400B, 405B | 350B, 280B | 195B | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;Retained Earnings | $0B | $255B | $1,217B | $2,423B | $3,286B | $3,642B |
+| &nbsp;&nbsp;**Valuation (Normal)** | | | | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;P/E Multiple | 60x | 30x | 20x | 15x | 15x | 15x |
+| &nbsp;&nbsp;&nbsp;&nbsp;Enterprise Value | -$12B | $495B | $1,700B | $2,055B | $1,545B | $1,260B |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Market Cap** | **-$12B** | **$526B** | **$1,947B** | **$2,659B** | **$2,474B** | **$2,365B** |
+| &nbsp;&nbsp;**Valuation (Bull)** | | | | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;P/E Multiple | 60x | 25x | 18x | 15x | 15x | 15x |
+| &nbsp;&nbsp;&nbsp;&nbsp;Enterprise Value | -$24B | $3,750B | $7,056B | $6,090B | $3,480B | $2,415B |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Market Cap** | **-$24B** | **$4,005B** | **$8,273B** | **$8,513B** | **$6,766B** | **$6,057B** |
 | **FSD** | | | | | | |
 | &nbsp;&nbsp;*(section placeholder)* | | | | | | |
 | **BATTERIES** | | | | | | |
@@ -49,16 +57,15 @@
 | **OPTIMUS** | | | | | | |
 | &nbsp;&nbsp;*(section placeholder)* | | | | | | |
 | **TOTAL COMPANY** | | | | | | |
-| &nbsp;&nbsp;**Valuation (Normal)** | | | | | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;P/E Multiple (Normal) | 60x | 30x | 20x | 15x | 15x | 15x |
-| &nbsp;&nbsp;&nbsp;&nbsp;Enterprise Value (Normal) | $0.76T | $0.50T | $1.70T | $2.06T | $1.55T | $1.26T |
-| &nbsp;&nbsp;&nbsp;&nbsp;Retained Earnings (Normal) | $39.6B | $71B | $287B | $644B | $969B | $1,145B |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Normal)** | **$0.80T** | **$0.57T** | **$1.99T** | **$2.70T** | **$2.52T** | **$2.41T** |
-| &nbsp;&nbsp;**Valuation (Bull)** | | | | | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;P/E Multiple (Bull) | 60x | 25x | 18x | 15x | 15x | 15x |
-| &nbsp;&nbsp;&nbsp;&nbsp;Enterprise Value (Bull) | $0.76T | $3.74T | $7.05T | $6.09T | $3.48T | $2.42T |
-| &nbsp;&nbsp;&nbsp;&nbsp;Retained Earnings (Bull) | $39.6B | $295B | $1,257B | $2,463B | $3,326B | $3,682B |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Bull)** | **$0.80T** | **$4.04T** | **$8.31T** | **$8.55T** | **$6.81T** | **$6.10T** |
+| &nbsp;&nbsp;**Aggregate Valuation** | | | | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Legacy Business (EV/Energy) | $760B | $800B | $850B | $900B | $950B | $1,000B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Value (Normal) | -$12B | $526B | $1,947B | $2,659B | $2,474B | $2,365B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Value (Bull) | -$24B | $4,005B | $8,273B | $8,513B | $6,766B | $6,057B |
+| &nbsp;&nbsp;&nbsp;&nbsp;FSD Value | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* |
+| &nbsp;&nbsp;&nbsp;&nbsp;Batteries Value | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* |
+| &nbsp;&nbsp;&nbsp;&nbsp;Optimus Value | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* | *(TBD)* |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Normal)** | **$0.75T** | **$1.33T** | **$2.80T** | **$3.56T** | **$3.42T** | **$3.37T** |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Bull)** | **$0.74T** | **$4.81T** | **$9.12T** | **$9.41T** | **$7.72T** | **$7.06T** |
 
 *Note: 2026 Market Cap includes legacy EV and Energy business value floors (~$760B).*
 
