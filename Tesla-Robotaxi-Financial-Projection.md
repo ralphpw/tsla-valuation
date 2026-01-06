@@ -11,14 +11,15 @@
 | Row Item | 2026 | 2029 | 2032 | 2035 | 2038 | 2040 (Maturity) |
 |----------|------|------|------|------|------|-----------------|
 | **ROBOTAXI** | | | | | | |
+| &nbsp;&nbsp;**Scenario Assumptions** | | | | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Utilization (Normal) | 50k mi/yr | 50k mi/yr | 50k mi/yr | 50k mi/yr | 50k mi/yr | 50k mi/yr |
+| &nbsp;&nbsp;&nbsp;&nbsp;Utilization (Bull) | 72k mi/yr | 72k mi/yr | 72k mi/yr | 72k mi/yr | 72k mi/yr | 72k mi/yr |
 | &nbsp;&nbsp;**Fleet & Operational Metrics** | | | | | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Fleet Size: US | 50k | 2.5M | 12.0M | 22.0M | 24.0M | 23.0M |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Fleet Size: EU | 5k | 500k | 3.0M | 6.5M | 7.5M | 7.0M |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Fleet Size: Other West | 2k | 150k | 1.0M | 2.5M | 3.0M | 3.0M |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Tesla Fleet Size (Total West)** | **57k** | **3.15M** | **16.0M** | **31.0M** | **34.5M** | **33.0M** |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Fleet Size (Normal) | 40k | 0.5M | 5.0M | 15.0M | 22.0M | 25.0M |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Fleet Size (Bull) | 57k | 3.15M | 16.0M | 31.0M | 34.5M | 33.0M |
 | &nbsp;&nbsp;&nbsp;&nbsp;Other Vendor Fleet (West) | 5k | 200k | 3.5M | 18.0M | 55.0M | 76.5M |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Total Global Fleet (West)** | **62k** | **3.35M** | **19.5M** | **49.0M** | **89.5M** | **109.5M** |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Market Share (West) | 92% | 94% | 82% | 63% | 39% | 30% |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Market Share (Normal) | 89% | 71% | 59% | 45% | 29% | 25% |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Market Share (Bull) | 92% | 94% | 82% | 63% | 39% | 30% |
 | &nbsp;&nbsp;**Pricing & Margin Dynamics** | | | | | | |
 | &nbsp;&nbsp;&nbsp;&nbsp;**Price per Mile (PPM)** | **$2.00** | **$1.20** | **$0.85** | **$0.65** | **$0.52** | **$0.45** |
 | &nbsp;&nbsp;&nbsp;&nbsp;Tesla Cost per Mile | $0.25 | $0.22 | $0.20 | $0.20 | $0.20 | $0.20 |
@@ -26,16 +27,21 @@
 | &nbsp;&nbsp;&nbsp;&nbsp;Competitor Cost per Mile | $0.50 | $0.45 | $0.40 | $0.38 | $0.36 | $0.35 |
 | &nbsp;&nbsp;&nbsp;&nbsp;Competitor Margin (%) | N/A | 20% | 15% | 10% | 8% | 5% |
 | &nbsp;&nbsp;**Market Penetration** | | | | | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Miles Travelled (West) | 0.5B | 225B | 1.3T | 3.2T | 6.2T | 7.8T |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Miles Travelled | 4.1B | 227B | 1.15T | 2.23T | 2.48T | 2.38T |
-| &nbsp;&nbsp;&nbsp;&nbsp;**% of Private Trans. Miles** | **0.1%** | **4.3%** | **25.1%** | **63.0%** | **68.0%** | **70.0%** |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Miles Travelled (Normal) | 2.0B | 25B | 250B | 750B | 1.10T | 1.25T |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Miles Travelled (Bull) | 4.1B | 227B | 1.15T | 2.23T | 2.48T | 2.38T |
+| &nbsp;&nbsp;&nbsp;&nbsp;**% of Private Trans. Miles (Normal)** | **0.04%** | **0.5%** | **4.8%** | **14.7%** | **12.1%** | **11.3%** |
+| &nbsp;&nbsp;&nbsp;&nbsp;**% of Private Trans. Miles (Bull)** | **0.1%** | **4.3%** | **25.1%** | **63.0%** | **68.0%** | **70.0%** |
 | &nbsp;&nbsp;&nbsp;&nbsp;Total Western VMT (Baseline) | 5.2T | 5.2T | 5.2T | 5.1T | 9.1T | 11.1T |
-| &nbsp;&nbsp;**Financial Performance** | | | | | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Tesla Revenue ($B)** | **$8.2B** | **$272.2B** | **$979.2B** | **$1,450B** | **$1,291B** | **$1,073B** |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Tesla Earnings ($B)** | **-$0.4B** | **$149.7B** | **$391.7B** | **$406.1B** | **$232.3B** | **$161B** |
-| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Earnings (Intermediate years est.) | 30B, 75B | 250B, 320B | 400B, 405B | 350B, 280B | 195B | — |
-| &nbsp;&nbsp;&nbsp;&nbsp;Earnings per Vehicle | -$7k | $47.5k | $24.5k | $13.1k | $6.7k | $4.9k |
-| &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Retained Earnings ($B) | $0B | $255B | $1,217B | $2,423B | $3,286B | $3,642B |
+| &nbsp;&nbsp;**Financial Performance (Normal)** | | | | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Revenue (Normal) | $4.0B | $30B | $213B | $488B | $572B | $563B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Earnings (Normal) | -$0.2B | $16.5B | $85B | $137B | $103B | $84B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Earnings (Intermediate, Normal) | 5B, 10B | 40B, 60B | 100B, 120B | 120B, 110B | 92B | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Retained Earnings (Normal) | $0B | $31B | $247B | $604B | $929B | $1,105B |
+| &nbsp;&nbsp;**Financial Performance (Bull)** | | | | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Revenue (Bull) | $8.2B | $272B | $979B | $1,450B | $1,291B | $1,073B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Tesla Earnings (Bull) | -$0.4B | $150B | $392B | $406B | $232B | $161B |
+| &nbsp;&nbsp;&nbsp;&nbsp;Earnings (Intermediate, Bull) | 30B, 75B | 250B, 320B | 400B, 405B | 350B, 280B | 195B | — |
+| &nbsp;&nbsp;&nbsp;&nbsp;Robotaxi Retained Earnings (Bull) | $0B | $255B | $1,217B | $2,423B | $3,286B | $3,642B |
 | **FSD** | | | | | | |
 | &nbsp;&nbsp;*(section placeholder)* | | | | | | |
 | **BATTERIES** | | | | | | |
@@ -43,11 +49,16 @@
 | **OPTIMUS** | | | | | | |
 | &nbsp;&nbsp;*(section placeholder)* | | | | | | |
 | **TOTAL COMPANY** | | | | | | |
-| &nbsp;&nbsp;**Valuation** | | | | | | |
-| &nbsp;&nbsp;&nbsp;&nbsp;Conservative P/E Multiple | 60x | 25x | 18x | 15x | 15x | 15x |
-| &nbsp;&nbsp;&nbsp;&nbsp;Enterprise Value (EV) ($T) | $0.76T | $3.74T | $7.05T | $6.09T | $3.48T | $2.42T |
-| &nbsp;&nbsp;&nbsp;&nbsp;Retained Earnings ($B) | $39.6B | $295B | $1,215B | $2,430B | $3,290B | $3,680B |
-| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap ($T)** | **$0.80T** | **$4.04T** | **$8.27T** | **$8.52T** | **$6.77T** | **$6.10T** |
+| &nbsp;&nbsp;**Valuation (Normal)** | | | | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;P/E Multiple (Normal) | 60x | 30x | 20x | 15x | 15x | 15x |
+| &nbsp;&nbsp;&nbsp;&nbsp;Enterprise Value (Normal) | $0.76T | $0.50T | $1.70T | $2.06T | $1.55T | $1.26T |
+| &nbsp;&nbsp;&nbsp;&nbsp;Retained Earnings (Normal) | $39.6B | $71B | $287B | $644B | $969B | $1,145B |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Normal)** | **$0.80T** | **$0.57T** | **$1.99T** | **$2.70T** | **$2.52T** | **$2.41T** |
+| &nbsp;&nbsp;**Valuation (Bull)** | | | | | | |
+| &nbsp;&nbsp;&nbsp;&nbsp;P/E Multiple (Bull) | 60x | 25x | 18x | 15x | 15x | 15x |
+| &nbsp;&nbsp;&nbsp;&nbsp;Enterprise Value (Bull) | $0.76T | $3.74T | $7.05T | $6.09T | $3.48T | $2.42T |
+| &nbsp;&nbsp;&nbsp;&nbsp;Retained Earnings (Bull) | $39.6B | $295B | $1,257B | $2,463B | $3,326B | $3,682B |
+| &nbsp;&nbsp;&nbsp;&nbsp;**Total Market Cap (Bull)** | **$0.80T** | **$4.04T** | **$8.31T** | **$8.55T** | **$6.81T** | **$6.10T** |
 
 *Note: 2026 Market Cap includes legacy EV and Energy business value floors (~$760B).*
 
@@ -579,6 +590,80 @@ This model focuses exclusively on the Western robotaxi business. The following s
 3. **China is 50% of Global Market:** By excluding Eastern markets, this model covers only half the global robotaxi opportunity.
 
 4. **Cumulative Impact:** These factors could add (or subtract) trillions in value. The model is intentionally conservative by focusing only on the core Western robotaxi thesis.
+
+---
+
+### A.14 Model Critique: Bull Case, Not Base Case
+
+This section provides a critical assessment of the model's assumptions, identifying where they may be aggressive vs. conservative.
+
+#### Internal Consistency
+
+The model's math is internally consistent. For example:
+- 2029: 3.15M vehicles × 72k miles × $1.20/mi = $272B revenue ✓
+- 2029: $272B × 55% margin = $150B earnings ✓
+
+The model is logically coherent. The question is whether the *inputs* are realistic.
+
+#### Most Aggressive Assumptions
+
+| Assumption | Model Value | Reality Check | Concern Level | Model Counterargument |
+|------------|-------------|---------------|---------------|----------------------|
+| 55% net margin (2029) | $150B on $272B | Apple peaks at ~25% net margin. Saudi Aramco at ~30%. This would be the highest margin at scale in history | 🔴 Very High | Tesla is competing with existing transport pricing. Price is determined by supply / demand, and if undercutting existing transport (1/3 of the price) price will be FORCED to a level that creates the highest profitability ever. But this will drag in competitors, forcing Tesla to grow the service as fast as possible. NVidia margins are very high now, but are expected to fall |
+| 70% market penetration | By 2040 | Assumes near-complete replacement of car ownership. Uber/Lyft are at ~1% of miles after 15 years | 🔴 Very High | True, but it would make sense if 40% is replacement, and 30% is from unlocking massive additional due to new availablility of cheap PERSONAL transport to very young/old/disabled/drunk/tourists/public transport users/etc). The model assumes Robotaxi will dominate transport by expanding the TAM. |
+| Fleet ramp (57k→3.15M) | 3 years | 55x growth requires mass regulatory approval + HW3/HW4 working perfectly | 🟠 High | Let's cut these figures to 0.5M after three years. |
+| Constant 72k mi/yr | All years, all markets | NYC taxi benchmark applied to suburban/rural. Early years likely much lower | 🟠 High | Let's cut these figures by adding a "normal" case with 50k miles. Let's retain this as a bull case.|
+
+#### Earnings Reality Check
+
+| Year | Model Earnings | Context | Model Counterargument |
+|------|----------------|---------|----------------------|
+| 2029 | $150B | Would be most profitable company ever | Transport is the second-most expensive line-item in any household budget, except for housing. Solve a big problem = high revenue. |
+| 2032 | $392B | 4x the most profitable company ever (Aramco ~$160B peak) | Same reasoning |
+| 2035 | $406B | More than Apple + Microsoft + Google combined | Same reasoning |
+
+This isn't impossible, but it requires *everything* to go right: regulatory, technology, competition, adoption, pricing.
+
+#### Potentially Conservative Assumptions
+
+| Assumption | Model Value | Bull Case Alternative | Model Counterargument |
+|------------|-------------|----------------------|----------------------|
+| Western-only scope | 0% China | Tesla could crack China = 2x TAM | Model assumes symmetry in protectionism or lack-of. Thus China is excluded for simplicity. |
+| Excludes Optimus | $0 | Could be larger than robotaxi | Too little is known |
+| 15x terminal multiple | $6.1T cap | If Tesla stays innovative, 20-25x possible | The model looks at each TAM separately. Each TAM should have its own PE. In fact, please move the PE into each TAM section (e.g. Robotaxi). |
+| $0.45 price floor | Fixed | Battery improvements could push to $0.35 | OK, model this out another 10 years |
+
+#### Key Uncertainties by Impact
+
+**High Impact, High Uncertainty:**
+1. **Regulatory timeline** — One fatal accident = multi-year setback
+2. **HW3/HW4 capability** — Can existing hardware actually achieve L4?
+3. **Consumer trust** — Will people actually get in a driverless car at scale?
+
+**High Impact, Medium Uncertainty:**
+4. **Nvidia Bloc timing** — When do Mercedes/Hyundai actually ship at scale?
+5. **Price competition** — How fast does the race to $0.50/mi happen?
+
+**Medium Impact, High Uncertainty:**
+6. **Owner opt-in rates** — Will consumers really put their cars on the network?
+7. **Insurance/liability** — Who pays when there's an accident?
+
+#### Assessment Summary
+
+The model represents the "everything goes right" scenario:
+- Regulatory approval happens on Tesla's timeline ✓
+- HW3/HW4 works for unsupervised driving ✓
+- Competition is 3-5 years behind ✓
+- Consumers adopt rapidly ✓
+- Pricing power persists through 2032 ✓
+
+A more realistic base case might assume:
+- 2-3 year delay on all milestones
+- Peak margins of 35-40% instead of 55%
+- 40-50% market penetration ceiling instead of 70%
+- 20-25% mature market share instead of 30%
+
+**Rough impact:** This would roughly halve the peak valuation from ~$8.5T to ~$4T, which would *still* be extraordinary (5x current value).
 
 ---
 
