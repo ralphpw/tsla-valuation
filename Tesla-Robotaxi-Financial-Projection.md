@@ -340,6 +340,21 @@ This is based on competitive dynamics, not cost. The market price will always be
 
 A 15% net margin in a mature, capital-intensive industry is considered a very healthy, sustainable return. A 5% margin suggests a business vulnerable to economic downturns.
 
+##### Social Media Discussion
+**x.com\LangleyDonovan**
+@jamesdouma
+ James, any thoughts on the NVIDIA Alpamayo self-driving AI announcement? Should Tesla be worried?
+
+**x.com\jamesdouma**
+No, this is not competition for FSD anymore than LEGO releasing a Space Shuttle kit is competition for the Falcon 9.
+
+Nvidia has released multiple generations of ADAS development kits and tools for developing ADAS systems.  These are not ADAS systems, they are tools to help get started developing an ADAS system.  Nvidia has also produced multiple generations of hardware kits that can help a developer get started building the compute framework for an ADAS system using Nvidia silicon.  An ADAS demo can be put together pretty quickly using these kits, but a production system cannot - the kit gets you 0.01% of the way to concept for a production system and it doesn't include most of the difficult to understand parts - it just shows what is possible.  This latest kit apparently includes the a VLA as the core software architectural component.  Using a VLA provides a lot of development advantages but VLAs are compute intensive and not, in their simple form, suitable for a production system.
+
+It would be a good thing for the world if companies picked up these tools and started making a serious attempt to develop ADAS systems and I hope they do.  If they were wildly successful they might start fielding them in 5 years and that could help Tesla to displace the billion plus human driven vehicles ten years from now.  We need lots and lots and lots of autonomous capable vehicles and Tesla can't build all of them in any reasonable period of time.  
+
+There is no scenario in which  a company building on top of this new development kit will even slightly dent Tesla's Robotaxi market opportunity.  I wish it were that easy - building an FSD like system is still a technically challenging, resource intensive, and commercially fraught task.  It's kind of a miracle that any company did it once.  It's the thing I'm most grateful to Tesla for.
+8:37 PM · Jan 6, 2026
+
 #### Alternative Views
 
 | View | Impact | Description |
